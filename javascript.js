@@ -77,8 +77,9 @@
 // 
 //Events
 
-let btn = document.getElementById("btn")
+let btn = document.querySelector("btn")
 addEventListener("click", myFunc);
 function myFunc() {
     alert("clicked")
 }
+
