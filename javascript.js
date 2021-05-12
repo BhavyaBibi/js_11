@@ -61,12 +61,16 @@
 // while(count<=10)
 
 // for loop with array
-let myArray = ['banana', 'kiwi', 'orange', 'apple'];
+// let myArray = ['banana', 'kiwi', 'orange', 'apple'];
 // for (let i = 0; i < myArray.length; i++) {
 //     document.write(myArray[i] + "<br>")
 // }
 
-for (let x of myArray) {
-    document.write(x + "<br>");
-}
+// for (let x of myArray) {
+//     document.write(x + "<br>");
+// }
 
+function onAlert() {
+    alert("you have clicked the button");
+    console.log("clicked");
+}
