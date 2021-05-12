@@ -23,20 +23,27 @@
 //     console.log("you are young")
 // }
 
-//switch condition
-let fruits = "banana";
+// //switch condition
+// let fruits = "banana";
 
-switch (fruits) {
-    case "orange":
-        console.log("i bought fruit orange");
-        break;
-    case "banana":
-        console.log("i bought fruit banana");
-        break;
-    default:
-        console.log("no fruits found")
+// switch (fruits) {
+//     case "orange":
+//         console.log("i bought fruit orange");
+//         break;
+//     case "banana":
+//         console.log("i bought fruit banana");
+//         break;
+//     default:
+//         console.log("no fruits found")
 
 
 
+// }
+for loop
+
+let count = 0;
+for (let i = 0; i <= 10; i++) {
+    console.log(i)
 }
+
 
