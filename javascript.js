@@ -61,8 +61,12 @@
 // while(count<=10)
 
 // for loop with array
-let myArray = ['banana', 'orange', 'apple'];
-for (let i = 0; i < myArray.length; i++) {
-    document.write(myArray[i] + "<br>")
+let myArray = ['banana', 'kiwi', 'orange', 'apple'];
+// for (let i = 0; i < myArray.length; i++) {
+//     document.write(myArray[i] + "<br>")
+// }
+
+for (let x of myArray) {
+    document.write(x + "<br>");
 }
 
