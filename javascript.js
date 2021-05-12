@@ -48,14 +48,21 @@
 
 
 //while loop
-let count = 0;
-// while (count <= 10) {
-//     console.log(count)
+// let count = 0;
+// // while (count <= 10) {
+// //     console.log(count)
+// //     count++;
+// // }
+
+// do {
+//     console.log(count);
 //     count++;
 // }
+// while(count<=10)
 
-do {
-    console.log(count);
-    count++;
+// for loop with array
+let myArray = ['banana', 'orange', 'apple'];
+for (let i = 0; i < myArray.length; i++) {
+    document.write(myArray[i] + "<br>")
 }
-while(count<=10)
+
