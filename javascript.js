@@ -70,7 +70,15 @@
 //     document.write(x + "<br>");
 // }
 
-function onAlert() {
-    alert("you have clicked the button");
-    console.log("clicked");
+// function onAlert() {
+//     alert("you have clicked the button");
+//     console.log("clicked");
+// }
+// 
+//Events
+
+let btn = document.getElementById("btn")
+addEventListener("click", myFunc);
+function myFunc() {
+    alert("clicked")
 }
