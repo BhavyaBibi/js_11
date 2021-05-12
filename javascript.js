@@ -1,17 +1,11 @@
-function myFunc() {
-    let a = 5;
-    myFuncTwo();
-    return a;
+// objects
 
-}
-function myFuncTwo() {
-    console.log("completed");
+let myobj = {
 
-}
-function myFuncThree() {
-    let b = 10;
-    myFuncTwo();
-    return b;
-}
-console.log(myFunc());
-console.log(myFuncThree());
+    firstname: "john",
+    lastname: "doe"
+};
+
+myobj.firstname = "jacob";
+delete myobj.firstname;
+console.log(myobj);
