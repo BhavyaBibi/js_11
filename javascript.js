@@ -41,9 +41,15 @@
 // }
 //for loop
 
-let count = 0;
-for (let i = 0; i >= 10; i++) {
-    console.log(i)
+// let count = 0;
+// for (let i = 0; i >= 10; i++) {
+//     console.log(i)
+// }
+
+
+//while loop
+let count = 10;
+while (count <= 10) {
+    console.log(count)
+    break;
 }
-
-
