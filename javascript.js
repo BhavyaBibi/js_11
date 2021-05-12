@@ -48,8 +48,8 @@
 
 
 //while loop
-let count = 10;
+let count = 0;
 while (count <= 10) {
     console.log(count)
-    break;
+    count++;
 }
