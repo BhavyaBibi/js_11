@@ -7,4 +7,5 @@ const globalPlayer = {
 };
 
 const player1 =globalPlayer;
+player1.powerLevel=50
 console.log(player1);
