@@ -1,8 +1,8 @@
-spread operator
+// spread operator
 
 const globalPlayer = {
     id:0,
-    name:"bot"
+    name:"bot",
     powerLevel: 100,
 };
 
