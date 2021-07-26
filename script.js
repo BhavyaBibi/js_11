@@ -1,13 +1,14 @@
-spread operator
+// spread operator
 
-const globalPlayer = {
-    id:0,
-    name:"bot"
-    powerLevel: 100,
-};
+const globalPlayer = ["bhavya", "bibi", "krish"];
+const globalPlayer2 = ["bhavu", "bibu", "krisu"];
 
-const player1 ={...globalPlayer};//copy
-player1.powerLevel=50
-console.log(player1);
-console.log(globalPlayer);
+
+const player1 = globalPlayer.concat(globalPlayer2)
+
+console.log(player1)
+
+// console.log(globalPlayer);
+// console.log(globalPlayer2);
+
 
