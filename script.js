@@ -17,4 +17,4 @@ let player=mystring
 player="test"
 
 console.log(player)
-console.log(player)
+console.log(mystring)
