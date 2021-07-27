@@ -36,5 +36,30 @@
 //     console.log("running")
 // }
 // myFunc();
-const myFunc=(value)=> value+5;
-console.log(myFunc(5))
+// const myFunc=(value)=> value+5;
+// console.log(myFunc(5))
+//for each
+
+const globalPlayer =[
+{
+         id:0,
+         name:"ajay",
+         age:20,
+
+
+    },
+    {
+    id:1,
+    name:"anu",
+    age:20,
+    },
+    {
+        id:2,
+        name:"aswathy",
+        age:20,
+        },
+]
+
+for(let i=0; i<=globalPlayer.length; i++){
+    console.log(globalPlayer[i])
+}
