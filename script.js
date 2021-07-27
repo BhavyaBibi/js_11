@@ -59,7 +59,11 @@ const globalPlayer =[
         age:20,
         },
 ]
+globalPlayer.forEach((value,index,array)=> console.log(value.name))
+// for(let i=0; i<=globalPlayer.length; i++){
+//     console.log(globalPlayer[i]) 
+// }
+    //Objectage: 20id: 0name: "ajay"[[Prototype]]: Object
+// script.js:64 Objectage: 20id: 1name: "anu"[[Prototype]]: Object
+// script.js:64 Objectage: 20id: 2name: "aswathy"[[Prototype]]: Object
 
-for(let i=0; i<=globalPlayer.length; i++){
-    console.log(globalPlayer[i])
-}
