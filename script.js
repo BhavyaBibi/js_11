@@ -14,8 +14,18 @@
 //rest
 
 
-const globalPlayer = ["bhavya", "bibi", "krish"];
+// const globalPlayer = ["bhavya", "bibi", "krish"];
 
 //ethil bhavyae nammuke vilikanum
 
-console.log(globalPlayer[0])
+// console.log(globalPlayer[0])
+
+const globalPlayer ={
+    id:0,
+    name:"ajay",
+    age:20
+}
+
+const {name,...rest}=globalPlayer;
+console.log(name);
+console.log(rest);
