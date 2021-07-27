@@ -86,6 +86,22 @@ const globalPlayer =[
             age:23,
             },
     ];
-const newArray = globalPlayer.map((value)=> value.age===20 && value.id ===1);
-console.log(newArray)
+// const newArray = globalPlayer.map((value)=> value.age===20 && value.id ===1);
+// console.log(newArray)
 // :[20, 24, 20]
+
+
+//reduce
+
+// const newArray = globalPlayer.reduce((value)=> value.age===20);
+// console.log(newArray)
+
+const numberArray =[15,10,20,5,50,66,88];
+let total =0;
+for(let i=0; i<numberArray.length; i++){
+    total=total+numberArray[i];
+    // total += numberArray[i]
+
+}
+console.log(total)
+//output:254
