@@ -20,12 +20,21 @@
 
 // console.log(globalPlayer[0])
 
-const globalPlayer ={
-    id:0,
-    name:"ajay",
-    age:20
-}
+// const globalPlayer ={
+//     id:0,
+//     name:"ajay",
+//     age:20
+// }
 
-const {name,...rest}=globalPlayer;
-console.log(name);
-console.log(rest);
+// const {name,...rest}=globalPlayer;
+// console.log(name);
+// console.log(rest);
+
+//arrow
+// function myFunc()
+// {
+//     console.log("running")
+// }
+// myFunc();
+const myFunc=(value)=> value+5;
+console.log(myFunc(5))
