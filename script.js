@@ -78,14 +78,14 @@ const globalPlayer =[
         {
         id:1,
         name:"anu",
-        age:24,
+        age:20,
         },
         {
             id:2,
             name:"aswathy",
-            age:20,
+            age:23,
             },
     ];
-const newArray = globalPlayer.map((value)=> value.age);
+const newArray = globalPlayer.map((value)=> value.age===20 && value.id ===1);
 console.log(newArray)
 // :[20, 24, 20]
