@@ -135,26 +135,51 @@
 //find
 
 
-const globalPlayer =[
-    {
-             id:1,
-             name:"ajay",
-             age:22,
+// const globalPlayer =[
+//     {
+//              id:1,
+//              name:"ajay",
+//              age:22,
     
     
-        },
-        {
-        id:1,
-        name:"anu",
-        age:20,
-        },
-        {
-            id:1,
-            name:"aswathy",
-            age:23,
-            },
-    ];
-    const newObj= globalPlayer.find(value => value.name === "aswathy");
-    console.log(newObj)
+//         },
+//         {
+//         id:1,
+//         name:"anu",
+//         age:20,
+//         },
+//         {
+//             id:1,
+//             name:"aswathy",
+//             age:23,
+//             },
+//     ];
+//     const newObj= globalPlayer.find(value => value.name === "aswathy");
+//     console.log(newObj)
 
 //sort
+
+const globalPlayer =[
+        {
+                 id:1,
+                 name:"ajay",
+                 age:22,
+        
+        
+            },
+            {
+            id:1,
+            name:"anu",
+            age:20,
+            },
+            {
+                id:1,
+                name:"aswathy",
+                age:23,
+                },
+        ];
+
+    const numberArray= [15,20,34,55,[77,9],88]
+    numberArray.sort()
+
+    console.log(numberArray.flat())
