@@ -137,9 +137,9 @@
 
 const globalPlayer =[
     {
-             id:0,
+             id:1,
              name:"ajay",
-             age:20,
+             age:22,
     
     
         },
@@ -149,10 +149,12 @@ const globalPlayer =[
         age:20,
         },
         {
-            id:2,
+            id:1,
             name:"aswathy",
             age:23,
             },
     ];
-    const newObj=globalPlayer.find(value) => value.age === 20);
+    const newObj= globalPlayer.find(value => value.name === "aswathy");
     console.log(newObj)
+
+//sort
