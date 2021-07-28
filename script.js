@@ -107,26 +107,79 @@
 //   value += numbers[i];
 // }
 
-const globalPlayer =[
-    {
-             id:0,
-             name:"ajay",
-             age:20,
+// const globalPlayer =[
+//     {
+//              id:0,
+//              name:"ajay",
+//              age:20,
     
     
-        },
-        {
-        id:1,
-        name:"anu",
-        age:20,
-        },
-        {
-            id:2,
-            name:"aswathy",
-            age:23,
-            },
-    ];
+//         },
+//         {
+//         id:1,
+//         name:"anu",
+//         age:20,
+//         },
+//         {
+//             id:2,
+//             name:"aswathy",
+//             age:23,
+//             },
+//     ];
 
-const numberArray=[14,50,20,5,50,66,88]
-const newArray = globalPlayer.reduce((total,value)=> total + value,20);
-console.log(newArray)
+// const numberArray=[14,50,20,5,50,66,88]
+// const newArray = globalPlayer.reduce((total,value)=> total + value,0);
+// console.log(newArray)
+
+
+//find
+
+
+// const globalPlayer =[
+//     {
+//              id:1,
+//              name:"ajay",
+//              age:22,
+    
+    
+//         },
+//         {
+//         id:1,
+//         name:"anu",
+//         age:20,
+//         },
+//         {
+//             id:1,
+//             name:"aswathy",
+//             age:23,
+//             },
+//     ];
+//     const newObj= globalPlayer.find(value => value.name === "aswathy");
+//     console.log(newObj)
+
+//sort
+
+const globalPlayer =[
+        {
+                 id:1,
+                 name:"ajay",
+                 age:22,
+        
+        
+            },
+            {
+            id:1,
+            name:"anu",
+            age:20,
+            },
+            {
+                id:1,
+                name:"aswathy",
+                age:23,
+                },
+        ];
+
+    const numberArray= [15,20,34,55,[77,9],88]
+    numberArray.sort()
+
+    console.log(numberArray.flat())
