@@ -63,7 +63,7 @@
 // for(let i=0; i<=globalPlayer.length; i++){
 //     console.log(globalPlayer[i]) 
 // }
-    //Objectage: 20id: 0name: "ajay"[[Prototype]]: Object
+//Objectage: 20id: 0name: "ajay"[[Prototype]]: Object
 // script.js:64 Objectage: 20id: 1name: "anu"[[Prototype]]: Object
 // script.js:64 Objectage: 20id: 2name: "aswathy"[[Prototype]]: Object
 
@@ -82,20 +82,20 @@
 // let total =0;
 // for(let i=0; i<numberArray.length; i++){
 //     total=total+numberArray[i];
-    // total += numberArray[i]
+// total += numberArray[i]
 
 // }
 // console.log(total)
 //output:254
 
 // function flattenArray(data) {
-    // our initial value this time is a blank array
-    // const initialValue = [];
-  
-    // call reduce on our data
-    // return data.reduce((total, value) => {
-      // if the value is an array then recursively call reduce
-      // if the value is not an array then just concat our value
+// our initial value this time is a blank array
+// const initialValue = [];
+
+// call reduce on our data
+// return data.reduce((total, value) => {
+// if the value is an array then recursively call reduce
+// if the value is not an array then just concat our value
 //       return total.concat(Array.isArray(value) ? flattenArray(value) : value);
 //     }, initialValue);
 //   }
@@ -112,8 +112,8 @@
 //              id:0,
 //              name:"ajay",
 //              age:20,
-    
-    
+
+
 //         },
 //         {
 //         id:1,
@@ -140,8 +140,8 @@
 //              id:1,
 //              name:"ajay",
 //              age:22,
-    
-    
+
+
 //         },
 //         {
 //         id:1,
@@ -159,27 +159,39 @@
 
 //sort
 
-const globalPlayer =[
-        {
-                 id:1,
-                 name:"ajay",
-                 age:22,
-        
-        
-            },
-            {
-            id:1,
-            name:"anu",
-            age:20,
-            },
-            {
-                id:1,
-                name:"aswathy",
-                age:23,
-                },
-        ];
+// const globalPlayer =[
+//         {
+//                  id:1,
+//                  name:"ajay",
+//                  age:22,
 
-    const numberArray= [15,20,34,55,[77,9],88]
-    numberArray.sort()
 
-    console.log(numberArray.flat())
+//             },
+//             {
+//             id:1,
+//             name:"anu",
+//             age:20,
+//             },
+//             {
+//                 id:1,
+//                 name:"aswathy",
+//                 age:23,
+//                 },
+//         ];
+
+//     const numberArray= [15,20,34,55,[77,9],88]
+//     numberArray.sort()
+
+//     console.log(numberArray.flat())
+
+//Es10
+const globalPlayer = {
+    id: 1,
+    name: "ajay",
+    company: {
+        company_name: "google"
+    }
+}
+if (globalPlayer ?.company ?.company_name) {
+    console.log(globalPlayer.company.company_name)
+}
