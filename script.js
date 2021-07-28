@@ -192,6 +192,6 @@ const globalPlayer = {
         company_name: "google"
     }
 }
-if (globalPlayer && globalPlayer.company && globalPlayer.company.company_name) {
+if (globalPlayer ?.company ?.company.company_name) {
     console.log(globalPlayer.company.company_name)
 }
