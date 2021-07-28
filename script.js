@@ -107,6 +107,34 @@
 //   value += numbers[i];
 // }
 
+// const globalPlayer =[
+//     {
+//              id:0,
+//              name:"ajay",
+//              age:20,
+    
+    
+//         },
+//         {
+//         id:1,
+//         name:"anu",
+//         age:20,
+//         },
+//         {
+//             id:2,
+//             name:"aswathy",
+//             age:23,
+//             },
+//     ];
+
+// const numberArray=[14,50,20,5,50,66,88]
+// const newArray = globalPlayer.reduce((total,value)=> total + value,0);
+// console.log(newArray)
+
+
+//find
+
+
 const globalPlayer =[
     {
              id:0,
@@ -126,7 +154,5 @@ const globalPlayer =[
             age:23,
             },
     ];
-
-const numberArray=[14,50,20,5,50,66,88]
-const newArray = globalPlayer.reduce((total,value)=> total + value,20);
-console.log(newArray)
+    const newObj=globalPlayer.find(value) => value.age === 20);
+    console.log(newObj)
