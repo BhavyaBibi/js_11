@@ -198,11 +198,12 @@
 
 //CHAINING
 
-const numberArray =[23,44,56,32,456,67,7,8,9,12,9]
+const numberArray = [23, 44, 56, 32, 456, 67, 7, 8, 9, 12, 9]
 
-const newArray= numberArray
-.map((value )=> value)
-.filter((data) => data>15)
-.reduce((total,value)=> total + value , 0);
+const newArray = numberArray
+    .map((value) => value)
+    .filter((data) => data > 15)
+    .sort((a, b) => a - b)
+// .reduce((total,value)=> total + value , 0);
 
 console.log(newArray);
