@@ -67,25 +67,7 @@
 // script.js:64 Objectage: 20id: 1name: "anu"[[Prototype]]: Object
 // script.js:64 Objectage: 20id: 2name: "aswathy"[[Prototype]]: Object
 
-const globalPlayer =[
-    {
-             id:0,
-             name:"ajay",
-             age:20,
-    
-    
-        },
-        {
-        id:1,
-        name:"anu",
-        age:20,
-        },
-        {
-            id:2,
-            name:"aswathy",
-            age:23,
-            },
-    ];
+
 // const newArray = globalPlayer.map((value)=> value.age===20 && value.id ===1);
 // console.log(newArray)
 // :[20, 24, 20]
@@ -117,10 +99,34 @@ const globalPlayer =[
 //       return total.concat(Array.isArray(value) ? flattenArray(value) : value);
 //     }, initialValue);
 //   }
-const value = 0;
+// const value = 0;
 
-const numbers = [5, 10, 15];
+// const numbers = [5, 10, 15];
 
-for(let i = 0; i < numbers.length; i++) {
-  value += numbers[i];
-}
+// for(let i = 0; i < numbers.length; i++) {
+//   value += numbers[i];
+// }
+
+const globalPlayer =[
+    {
+             id:0,
+             name:"ajay",
+             age:20,
+    
+    
+        },
+        {
+        id:1,
+        name:"anu",
+        age:20,
+        },
+        {
+            id:2,
+            name:"aswathy",
+            age:23,
+            },
+    ];
+
+const numberArray=[14,50,20,5,50,66,88]
+const newArray = globalPlayer.reduce((total,value)=> total + value,20);
+console.log(newArray)
