@@ -185,13 +185,24 @@
 //     console.log(numberArray.flat())
 
 //Es10
-const globalPlayer = {
-    id: 1,
-    name: "ajay",
-    company: {
-        company_name: "google"
-    }
-}
-if (globalPlayer ?.company ?.company_name) {
-    console.log(globalPlayer.company.company_name)
-}
+// const globalPlayer = {
+//     id: 1,
+//     name: "ajay",
+//     company: {
+//         company_name: "google"
+//     }
+// }
+// if (globalPlayer ?.company ?.company_name) {
+//     console.log(globalPlayer.company.company_name)
+// }
+
+//CHAINING
+
+const numberArray =[23,44,56,32,456,67,7,8,9,12,9]
+
+const newArray= numberArray
+.map((value )=> value)
+.filter((data) => data>15)
+.reduce((total,value)=> total + value , 0);
+
+console.log(newArray);
