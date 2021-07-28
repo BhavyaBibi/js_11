@@ -117,3 +117,10 @@ const globalPlayer =[
 //       return total.concat(Array.isArray(value) ? flattenArray(value) : value);
 //     }, initialValue);
 //   }
+const value = 0;
+
+const numbers = [5, 10, 15];
+
+for(let i = 0; i < numbers.length; i++) {
+  value += numbers[i];
+}
