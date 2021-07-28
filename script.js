@@ -96,12 +96,24 @@ const globalPlayer =[
 // const newArray = globalPlayer.reduce((value)=> value.age===20);
 // console.log(newArray)
 
-const numberArray =[15,10,20,5,50,66,88];
-let total =0;
-for(let i=0; i<numberArray.length; i++){
-    total=total+numberArray[i];
+// const numberArray =[15,10,20,5,50,66,88];
+// let total =0;
+// for(let i=0; i<numberArray.length; i++){
+//     total=total+numberArray[i];
     // total += numberArray[i]
 
-}
-console.log(total)
+// }
+// console.log(total)
 //output:254
+
+// function flattenArray(data) {
+    // our initial value this time is a blank array
+    // const initialValue = [];
+  
+    // call reduce on our data
+    // return data.reduce((total, value) => {
+      // if the value is an array then recursively call reduce
+      // if the value is not an array then just concat our value
+//       return total.concat(Array.isArray(value) ? flattenArray(value) : value);
+//     }, initialValue);
+//   }
