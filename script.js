@@ -10,6 +10,8 @@ const strJSON =
 "company" :"google"
 }`
 const parsedJSON =JSON.parse(strJSON)
+const stringifyJSON =JSON.stringify(strObject)
 
 console.log( strObject);
-console.log( parsedJSON)
+console.log( typeof parsedJSON);
+console.log( stringifyJSON)
