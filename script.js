@@ -4,8 +4,8 @@ const strObject =
     name : "debug",
     company :"google"
 }
-const strJSON =` this 
-ffsdzsz
-vfsdr`
-console.log(strObject);
-console.log(strJSON)
+const strJSON =` "id" :0,
+"name" : "debug",
+"company" :"google"`
+console.log(typeof strObject);
+console.log(typeof strJSON)
