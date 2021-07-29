@@ -7,5 +7,5 @@ const strObject =
 const strJSON =` "id" :0,
 "name" : "debug",
 "company" :"google"`
-console.log(typeof strObject);
+console.log( strObject.name);
 console.log(typeof strJSON)
