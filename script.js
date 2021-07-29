@@ -4,8 +4,12 @@ const strObject =
     name : "debug",
     company :"google"
 }
-const strJSON =` "id" :0,
+const strJSON =
+`{ "id" :0,
 "name" : "debug",
-"company" :"google"`
-console.log( strObject.name);
-console.log(typeof strJSON)
+"company" :"google"
+}`
+const parsedJSON =JSON.parse(strJSON)
+
+console.log( strObject);
+console.log(typeof parsedJSON)
