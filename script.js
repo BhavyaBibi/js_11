@@ -12,4 +12,4 @@ const strJSON =
 const parsedJSON =JSON.parse(strJSON)
 
 console.log( strObject);
-console.log(typeof parsedJSON)
+console.log( parsedJSON)
