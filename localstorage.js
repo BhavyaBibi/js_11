@@ -5,4 +5,13 @@
 
 
 localStorage.setItem("id","0")
+localStorage.setItem("name","abc")
+
+localStorage.setItem("name","Debug")
+localStorage.removeItem("id")
+
+
 document.write(localStorage.getItem("id"))
+document.write(localStorage.getItem("name"))
+
+
