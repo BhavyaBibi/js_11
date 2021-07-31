@@ -1,0 +1,14 @@
+class LanguageStudent : pass
+def add_language(self,language):
+        self.language={"maths","hindi","malyalam"}
+        return ("languages")
+        
+  
+class LanguageTeacher : pass
+def teach(self):
+#To see the output, uncomment the lines below:
+    teacher = LanguageTeacher()
+    teacher.add_language('English')
+    student = LanguageStudent()
+    teacher.teach(student, 'English')
+    print(student.languages)
