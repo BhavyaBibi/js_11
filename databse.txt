@@ -1,0 +1,25 @@
+-- Suggested testing environment: 
+-- http://sqlite.online/
+
+-- Example case create statement:
+CREATE TABLE roads (
+  name VARCHAR(20) PRIMARY KEY NOT NULL,
+  length INTEGER NOT NULL
+);
+
+INSERT INTO roads(name, length) VALUES('A417', 120);  
+INSERT INTO roads(name, length) VALUES('A40', 532);  
+INSERT INTO roads(name, length) VALUES('B41', 27);  
+INSERT INTO roads(name, length) VALUES('M25', 480);  
+INSERT INTO roads(name, length) VALUES('M1', 982);
+
+-- Insert answer here
+
+SELECT * FROM longRoads;
+
+-- Expected output (in any order):
+-- name    length
+-- ----------------------------
+-- A40     532
+-- M25     480
+-- M1      982
