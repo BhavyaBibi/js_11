@@ -1,18 +1,15 @@
-// localstorage.setItem("id")
-// localstorage.getItem()
-// localstorage.removeItem()
-// localstorage.clear()
 
-const obj ={
-    id:0,
-    name:"debug"
-};
-localStorage.setItem("data",JSON.stringify(obj))
-// document.write(localStorage.getItem("data"))
-// console.log(localStorage.getItem("data"))
-console.log(JSON.parse(localStorage.getItem("data")))
+const input=document.querySelector("input")
+const loginBtn =document.querySelector("#login")
+const logoutBtn=document.querySelector("#logout")
+const h1 = document.querySelector("h1")
 
+    loginBtn.onclick =()=>{
+        if(input.value){
+            localStorage.setitem("token"input.value)
+        }
 
+    }
 
 
 
