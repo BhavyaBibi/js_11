@@ -11,6 +11,7 @@ localStorage.setItem("name","Debug")
 localStorage.removeItem("id")
 
 console.log(localStorage.key(0))
+localStorage.clear()
 
 
 document.write(localStorage.getItem("id"))
