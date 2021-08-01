@@ -3,6 +3,7 @@ export const myFunc=()=>{
     return 10;
 }
 
+// export {}
 // output
 
 // Debug
