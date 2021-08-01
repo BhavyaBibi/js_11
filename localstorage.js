@@ -6,9 +6,9 @@
 const obj ={
     id:0,
     name:"debug"
-}
-localStorage.setItem("id",obj)
-
+};
+localStorage.setItem("data",JSON.stringify(obj))
+document.write(localStorage.getItem("data"))
 
 
 
