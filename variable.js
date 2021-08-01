@@ -9,3 +9,6 @@ export {myString, myFunc}
 // Debug
 // module.js:3 ()=>{
 //     return 10;
+export default function handleChange(){
+    return "input value";
+}
