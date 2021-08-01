@@ -1,8 +1,8 @@
-export const myString = "Debug";
-export const myFunc=()=>{
+ const myString = "Debug";
+  const myFunc=()=>{
     return 10;
 }
-
+export {myString, myFunc}
 // export {}
 // output
 
