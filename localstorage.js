@@ -9,7 +9,8 @@ const obj ={
 };
 localStorage.setItem("data",JSON.stringify(obj))
 // document.write(localStorage.getItem("data"))
-console.log(localStorage.getItem("data"))
+// console.log(localStorage.getItem("data"))
+console.log(JSON.parse(localStorage.getItem("data")))
 
 
 
