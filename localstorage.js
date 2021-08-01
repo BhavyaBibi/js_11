@@ -8,7 +8,8 @@ const obj ={
     name:"debug"
 };
 localStorage.setItem("data",JSON.stringify(obj))
-document.write(localStorage.getItem("data"))
+// document.write(localStorage.getItem("data"))
+console.log(localStorage.getItem("data"))
 
 
 
