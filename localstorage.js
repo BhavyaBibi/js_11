@@ -1,19 +1,20 @@
-// localstorage.setItem("id")
-// localstorage.getItem()
-// localstorage.removeItem()
-// localstorage.clear()
+
+const input=document.querySelector("input")
+const loginBtn =document.querySelector("#login")
+const logoutBtn=document.querySelector("#logout")
+const h1 = document.querySelector("h1");
 
 
-localStorage.setItem("id","0")
-localStorage.setItem("name","abc")
+loginBtn.onclick =()=>{
+    if(input.value){
+        localStorage.setItem("token",input.value)
+        h1.innerText="Welcome user";
+        }
 
-localStorage.setItem("name","Debug")
-localStorage.removeItem("id")
-
-console.log(localStorage.key(0))
-
-
-document.write(localStorage.getItem("id"))
-document.write(localStorage.getItem("name"))
+    };
+    // logoutBtn.onclick =() =>{
+    //     localStorage.clear();
+    //     location.reload();
+    // }
 
 
