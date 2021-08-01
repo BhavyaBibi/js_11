@@ -6,10 +6,14 @@ const h1 = document.querySelector("h1")
 
     loginBtn.onclick =()=>{
         if(input.value){
-            localStorage.setitem("token"input.value)
+            localStorage.setitem("token",input.value)
+            h1.innerText="Welcome user"
         }
 
+    };
+    logoutBtn.onclick =() =>{
+        localStorage.clear();
+        location.reload();
     }
-
 
 
