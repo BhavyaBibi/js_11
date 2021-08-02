@@ -1,3 +1,8 @@
-const myString ="10";
-const convertInt =  myString | 0;
-console.log(typeof convertInt)
+const myObj={
+    id:0,
+    name:"debugger",
+    bool:false,
+
+};
+const newObj =myObj.id ?? 15;
+console.log(newObj);
