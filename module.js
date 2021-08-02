@@ -1,3 +1,3 @@
 const myString ="10";
-const convertInt= parseInt(myString)
+const convertInt = + myString
 console.log(typeof convertInt)
