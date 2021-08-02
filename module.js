@@ -1,7 +1,8 @@
 const myObj={
-    id:0,
+    id:15,
     name:"debugger",
+    bool:false,
 
 };
-const newObj =myObj.name || 15;
+const newObj =myObj.id || 15;
 console.log(newObj)
