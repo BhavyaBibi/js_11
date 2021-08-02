@@ -3,5 +3,5 @@ const myObj={
     name:"debugger",
 
 };
-const newObj =myObj.id;
+const newObj =myObj.name || 15;
 console.log(newObj)
