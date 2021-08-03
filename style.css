@@ -22,3 +22,10 @@ body{
         display: none;
     }
 }    
+.show{
+    display:"block"
+    font-size:50px;
+}
+.hide{
+    display: none;
+}
