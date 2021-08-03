@@ -1,1 +1,1 @@
-const header=document.querySelector("h1")
+const header=document.querySelector(".show")
