@@ -12,3 +12,6 @@ function resize(){
     if(deviceWidth.matches){
         header.classList.add("hide")
 }
+else{
+header.classList.remove("hide")
+}
