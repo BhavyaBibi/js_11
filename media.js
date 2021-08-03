@@ -1,7 +1,6 @@
 const header=document.querySelector(".show")
-console.log("header")
+const banner =document.querySelector(".banner")
 
-const deviceWidth =window.matchMedia("(max-width:767px)")
-
-if(deviceWidth.matches){
-    header.classList.add("hide")
+ banner.addEventListener("click" , () => {
+     header.classList.toggle("hide");
+ });
